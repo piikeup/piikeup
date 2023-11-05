@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @piikeup
 - 👀 A courier delivery appliation
-- 🌱 Currently im developing ...
+- 🌱 Currently im in developing phase
 - 💞️ Will reach out to all of you soon ...
 - 📫 Give me feedback at @piikeup@gmail.com
 
