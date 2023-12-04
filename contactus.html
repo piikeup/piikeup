@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Piikeup - Your On-Demand Parcel Delivery Service"
+    />
+    <meta
+      name="keywords"
+      content="Piikeup, Parcel Delivery, On-Demand Delivery"
+    />
+    <meta name="author" content="Your Name" />
+    <!-- open graph meta tags -->
+    <meta
+      property="og:title"
+      content="Piikeup - Your On-Demand Parcel Delivery Service"
+    />
+    <meta
+      property="og:description"
+      content="Piikeup offers on-demand parcel delivery services. Download our app now!"
+    />
+    <meta property="og:image" content="url_to_your_social_media_image" />
+    <meta property="og:url" content="url_to_your_website" />
+
+    <meta
+      name="twitter:title"
+      content="Piikeup - Your On-Demand Parcel Delivery Service"
+    />
+    <meta
+      name="twitter:description"
+      content="Piikeup offers on-demand parcel delivery services. Download our app now!"
+    />
+    <meta name="twitter:image" content="url_to_your_social_media_image" />
+    <title>ContactUs</title>
+    <link
+      rel="stylesheet"
+      href="styles.css
+    "
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="brand">
+        <a href="/">
+          <img src="./images/logo.png" alt="Brand Logo" class="brand-image"
+        /></a>
+        <span class="brand-name">Piikeup</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/#howitworkssec">How it works</a></li>
+        <li class="dropdown">
+          <a href="#">Places <ion-icon name="chevron-down-outline"></ion-icon
+            ></a>
+          <div class="dropdown-content">
+            <a href="#">Place 1</a>
+            <a href="#">Place 2</a>
+            <a href="#">Place 3</a>
+          </div>
+        </li>
+        <li><a href="#">Download</a></li>
+        <li class="dropdown">
+          <a href="/#faqsec">FAQ <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <div class="dropdown-content">
+            <a href="#">FAQ1</a>
+            <a href="#">FAQ1</a>
+            <a href="#">FAQ1</a>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <a href="contactus.html" class="contact-link">Contact</a>
+        <button href="/" class="get-app-link">Get the App</button>
+      </div>
+    </div>
+
+    <section>
+      <div
+        style="
+          width: 10%;
+          height: 5px;
+          background: #199da1;
+          border-radius: 100px;
+        "
+      ></div>
+      <h4 class="privacyheading">Contact Us</h4>
+      <h4 class="policiesheading">Send Your Message</h4>
+      <form action="/" method="get">
+        <label for="name" >Your Name*</label>
+        <input required id="name" type="text" placeholder="Enter your name">
+        <label for="mail" style="display: block;">Email Address*</label>
+        <input required id="mail" type="email" placeholder="Enter your Email Address">
+        <label for="contactno" style="display: block;">Mobile Number</label>
+        <input id="contactno" type="tel" placeholder="+91 XXXXXXXXXX">
+        <label for="message" style="display: block;">Message*</label>
+        <textarea required rows="10" id="message" placeholder="Enter your Message"></textarea>
+        <button type="submit" >
+            <p >Send Message</p>
+        </button>
+      </form>
+     
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerdivs">
+        <div style="color: white">
+          <div
+            class="footercol1"
+            style="display: flex; flex-direction: column"
+            class="brand"
+          >
+            <img
+              class="footerlogo"
+              src="./images/logo.png"
+              alt="Brand Logo"
+              width="80px"
+              height="72px"
+            />
+            <h4
+              style="
+                padding: 20px 20px 20px 0;
+                color: white;
+                font-size: 20px;
+                font-weight: 700;
+              "
+            >
+              Download the app by clicking the link below :
+            </h4>
+            <div class="downloadlinks footerdown" style="margin-top: 4%">
+              <ul>
+                <li>
+                  <a href=""><img src="./images/android.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/apple.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footerlinkhead" style="font-size: 18px; font-weight: 700">
+          <h4 style="color: white">Quick Links</h4>
+          <ul class="footerlinks" style="padding-inline-start: 0">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#howitworkssec">How It Works</a></li>
+            <li><a href="">Download</a></li>
+            <li><a href="/#faqsec">FAQ</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footerlinkhead" style="font-size: 18px; font-weight: 700">
+          <h4 style="color: white">Useful Information</h4>
+          <ul class="footerlinks" style="padding-inline-start: 0">
+            <li><a href="terms&conditions.html">Terms and Conditions</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="">Shipping Guidelines</a></li>
+            <li><a href="">Delivery Times</a></li>
+            <li><a href="">Payment Options</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

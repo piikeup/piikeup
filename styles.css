@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  color: black;
+  font-family: "Poppins", "sans serif";
+}
+section {
+  padding: 2% 8%;
+}
+footer {
+  padding: 2% 8%;
+  padding-bottom: 7%;
+  background-color: #050913;
+}
+section.services {
+  padding: 2% 0%;
+  text-align: center;
+}
+section.services .servbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 8%;
+}
+section.hero {
+  background: linear-gradient(to right, #defbff 20%, transparent 30%);
+  padding-bottom: 5%;
+}
+section.service {
+  padding-top: 0;
+}
+section.benefits {
+  margin-top: 5%;
+}
+
+/* Style for the navbar */
+.navbar {
+  padding: 2% 8%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #defbff 20%, transparent 30%);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+/* Style for the brand image */
+.brand-image {
+  width: 70px;
+  height: 63px;
+}
+
+/* Style for the brand name */
+.brand-name {
+  font-family: "Inter", "sans serif";
+  font-size: 32px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+/* Style for the list of links */
+.nav-links {
+  list-style: none;
+
+  font-size: 16px;
+
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+/* hero */
+.herodiv1div1 {
+  border: #b0fafd solid 1px;
+  padding: 4%;
+  border-radius: 20px;
+}
+.heroresdiv1 {
+  width: 50%;
+  padding: 0;
+}
+
+.heroresdiv2 {
+  text-align: center;
+  width: 30%;
+  padding: 2%;
+  border-radius: 35px;
+  background: #199da1;
+  margin-left: auto;
+}
+.youreqtext {
+  font-size: 50px;
+  font-weight: 700;
+}
+/* services
+   */
+.servbox div.backgroundserbox {
+  width: 290px;
+  height: 184px;
+
+  border-radius: 15px;
+}
+.servicesdesc {
+  padding-top: 20px;
+}
+.servicesdesc h4 {
+  padding-top: 5px;
+}
+.servicesheading {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 4%;
+  word-wrap: break-word;
+}
+.servicesdesc {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin: auto 0;
+  padding: 17px;
+}
+
+/* howitworks */
+.howitworkshead {
+  color: black;
+  font-size: 35px;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+.howitresdiv1 {
+  width: 30%;
+  padding: 2%;
+  border-radius: 35px;
+  background: #199da1;
+  text-align: center;
+  margin-right: auto;
+}
+.howitresdiv1 img,
+.heroresdiv2 img {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+.howitresdiv2 {
+  width: 50%;
+  padding: 4%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.stepstext {
+  color: #050913;
+  font-size: 24px;
+
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.benefitdiv {
+  width: 25%;
+  padding: 2%;
+  background: white;
+
+  border-radius: 20px;
+
+  border: 1px rgb(233, 233, 233) solid;
+}
+.benefitdiv:hover {
+  box-shadow: 0px 15px 30px rgba(26, 26, 26, 0.07);
+  border: 1px #bff1f2 solid;
+}
+.phoneimgtext {
+  margin-top: 20%;
+  padding-right: 2%;
+}
+.phonetextdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerdivs {
+  display: flex;
+  justify-content: space-between;
+}
+.footerlinks li {
+  list-style: none;
+  padding: 20px;
+  padding-left: 0;
+}
+.footerlinkhead {
+  padding: 20px;
+}
+.footerlinkhead h4 {
+  margin-bottom: 5%;
+}
+.footerlinks li a {
+  color: #cdcdcd;
+  text-decoration: none;
+  font-weight: 400;
+}
+.footerdown img {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.footerlogo {
+  margin-left: 0;
+}
+.policiespara {
+  text-align: justify;
+  color: #585858;
+  font-size: 18px;
+  margin-top: 3%;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.policiesheading {
+  font-size: 24px;
+  margin-top: 3%;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.policiessubheading {
+  font-size: 20px;
+  margin-top: 3%;
+  font-weight: 500;
+}
+.privacyheading {
+  margin-top: 3%;
+  font-size: 42px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+form {
+  margin-top: 3%;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 1%;
+
+  font-weight: 500;
+  word-wrap: break-word;
+  display: block;
+}
+input,
+textarea {
+  margin-bottom: 3%;
+  width: 100%;
+
+  background: white;
+  border-radius: 7px;
+  border: 1px rgba(224.19, 224.19, 224.19, 0.93) solid;
+}
+input {
+  height: 69px;
+}
+input,
+textarea[placeholder] {
+  color: #a6a6a6;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+textarea[placeholder] {
+  padding-top: 20px;
+}
+
+form button {
+  width: 187px;
+  height: 57px;
+  padding: 10px;
+  background: #199da1;
+  box-shadow: 0px 10px 20px white;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+form button p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+/* Style for the "Contact" and "Get the App" links on the right side */
+.contact-link,
+.get-app-link {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.get-app-link {
+  border-radius: 100px;
+  background: #050913;
+  color: #fff;
+  width: 170px;
+  height: 54px;
+  box-shadow: 0px 10px 20px 0px rgba(26, 26, 26, 0.2);
+}
+.get-startedbtndiv {
+  margin-top: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+.get-started {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: #050913;
+  color: #fff;
+  width: 200px;
+  height: 71px;
+}
+/* Style for the dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  text-align: left;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #defafe;
+}
+
+.downloadlinks ul {
+  padding-inline-start: 0;
+  list-style: none;
+}
+.downloadlinks li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* faq */
+.accordion-item {
+  background: white;
+  border-radius: 20px;
+
+  border: 1px rgb(233, 233, 233) solid;
+  padding: 16px;
+
+  transition: border 2s linear 5ms;
+  margin-bottom: 5%;
+}
+.accordion-item:hover {
+  box-shadow: 0px 15px 30px rgba(26, 26, 26, 0.07);
+  border: 1px #bff1f2 solid;
+}
+.accordion-link {
+  font-size: 22.4px;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.accordion-link ion-icon {
+  color: #199da1;
+  padding: 8px;
+}
+.accordion-link .hiddenicon {
+  display: none;
+}
+.answer {
+  text-align: justify;
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  font-size: 17.6px;
+  color: #6f6c90;
+  font-weight: 400;
+  transition: max-height 650ms;
+}
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 9.6px;
+  height: 90%;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%);
+}
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+.accordion-item:target .accordion-link .visibleicon {
+  display: none;
+}
+.accordion-item:target .accordion-link .hiddenicon {
+  display: block;
+}
+
+.paymentsmethod {
+  padding: 20px 20px 20px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1900px) {
+  .benefitbox {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+  .responsivediv {
+    flex-direction: column;
+  }
+  .heroresdiv1,
+  .heroresdiv2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .heroresdiv2 {
+    margin-top: 5%;
+  }
+
+  .howitresdiv1,
+  .howitresdiv2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .howitresdiv1 {
+    margin-bottom: 5%;
+  }
+  .howitresdiv1 img,
+  .heroresdiv2 img {
+    width: auto;
+  }
+
+  .servicesheading,
+  .howitworkshead {
+    font-size: 25px;
+  }
+  .stepstext {
+    font-size: 20px;
+  }
+  .get-startedbtndiv {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .servbox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .servbox div.backgroundserbox {
+    margin-bottom: 5%;
+    width: 40%;
+  }
+  .brand-image {
+    width: 80px;
+    height: 72px;
+  }
+  .brand-name {
+    font-size: 30px;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  .benefitbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .benefitbox div {
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  .phoneimg img {
+    display: none;
+  }
+  .phoneimgtext {
+    margin-top: 5%;
+  }
+  .phonetextdiv {
+    justify-content: center;
+  }
+  .footerdivs {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footerlogo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 600px) {
+  .heroresdiv1 span {
+    font-size: 35px;
+  }
+  .heroresdiv1 p {
+    font-size: 15px;
+  }
+  .downloadlinks img {
+    width: 140px;
+  }
+  .heroresdiv2 img,
+  .howitresdiv1 img {
+    width: 80%;
+  }
+  .brand-name {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+
+  .contact-link {
+    display: none;
+  }
+  .get-app-link {
+    margin-right: 0;
+  }
+  .policiespara {
+    font-size: 16px;
+  }
+  .policiesheading {
+    font-size: 22px;
+  }
+  .privacyheading {
+    font-size: 36px;
+  }
+  .get-app-link {
+    width: 150px;
+  }
+  .brand-image {
+    width: 70;
+    height: 63px;
+  }
+  .servbox div.backgroundserbox {
+    width: 100%;
+    height: 200px;
+  }
+  .servicesdesc {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .servicesdesc h4 {
+    padding: 5px;
+  }
+  .phoneimgtext {
+    text-align: center;
+  }
+  .phoneimgtext button {
+    margin-bottom: 20px;
+  }
+  .accordion-link {
+    font-size: 1rem;
+  }
+  .footerlinks li {
+    padding: 5px;
+    padding-left: 0;
+  }
+  section.hero {
+    background: white;
+  }
+  .navbar {
+    background: white;
+  }
+  .get-startedbtndiv {
+    display: none;
+  }
+  .herobr {
+    display: none;
+  }
+  .downloadlinks li {
+    margin-right: 0;
+  }
+  .howitdownload img {
+    width: 130px;
+  }
+  .youreqtext {
+    font-size: 30px;
+  }
+  .howitresdiv1,
+  .heroresdiv2 {
+    display: none;
+  }
+  .footerlogo {
+    padding-top: 5%;
+  }
+  .phoneimg {
+    display: none;
+  }
+}
